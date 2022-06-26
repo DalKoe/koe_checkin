@@ -15,7 +15,8 @@
 
 Config = {}
 
-Config.cd_playerhud = true     --Are you using cd_playerhud?
+Config.emsName	= 'ambulance'	--Name of your ems job
+Config.cd_playerhud = true     	--Are you using cd_playerhud?
 
 --Locations of the Check Ins. if illegal = true then it doesnt check EMS count and allows revives. 
 Config.NPCLocations = {
