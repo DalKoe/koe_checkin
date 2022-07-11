@@ -60,10 +60,10 @@ Citizen.CreateThread(function()
                 end)
                 npcSpawned = true
             end
-            if dst >= 51  then
-                npcSpawned = false
-                DeleteEntity(npc)
-            end
+            -- if dst >= 51  then
+            --     npcSpawned = false
+            --     DeleteEntity(npc)
+            -- end
         end
     end
 end)

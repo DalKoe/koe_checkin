@@ -11,7 +11,7 @@ AddEventHandler("koe_checkin:getEmsCount", function(count)
 			local xPlayers = ESX.GetPlayers()
 			for i=1, #xPlayers, 1 do
 				local xPlayer = ESX.GetPlayerFromId(xPlayers[i])
-				if xPlayer.job.name == Config.emsName then
+				if xPlayer.job.name == 'ambulance' then
 					ems = ems + 1
 				end
 			end
