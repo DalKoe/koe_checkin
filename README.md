@@ -13,6 +13,11 @@ It will check if EMS are online and if they are, you cannot check in unless you 
 * Revive System
 * EMS Check
 
+# Dependencies:
+* [qTarget](https://github.com/overextended/qtarget)
+* [ox_lib](https://github.com/overextended/ox_lib)
+* [tgiann-skillbar](https://github.com/TGIANN/fivem-tgiann-skillbar)
+
 # Video Preview:
 n/a
 
